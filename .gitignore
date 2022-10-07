@@ -1,0 +1,4 @@
+/.idea/
+/target/
+/testdb.trace.db
+/testdb.mv.db
