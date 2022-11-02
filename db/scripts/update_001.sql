@@ -1,7 +1,7 @@
 CREATE TABLE auto_user
 (
     id       SERIAL PRIMARY KEY,
-    login    TEXT,
+    login    VARCHAR NOT NULL UNIQUE,
     password TEXT
 );
 CREATE TABLE auto_post
